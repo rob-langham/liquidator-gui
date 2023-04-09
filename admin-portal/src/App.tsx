@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { VaultCard } from "./features/dashboard/vaults/vault-card";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <VaultCard vault={{} as any}></VaultCard>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
